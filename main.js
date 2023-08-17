@@ -12,7 +12,7 @@ rl.question('Ingrese el valor a encriptar: ', (dataToHash) => {
   console.log(`Encriptación SHA-256: ${hashResult}`);
   rl.close();
 });
-
+//Messi
 function calculateSHA256Hash(data) {
   const sha256Hash = crypto.createHash('sha256');
   sha256Hash.update(data, 'utf-8');
